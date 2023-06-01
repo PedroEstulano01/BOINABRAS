@@ -1,0 +1,175 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+    list-style: none;
+    text-decoration: none;
+}
+
+
+    /* Estilos para o body */
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+      }
+      
+      /* Estilos para o header */
+      header {
+        background-color: rgb(110, 64, 64);
+        color: #fff;
+        padding: 0px;
+        text-align: center;
+      }
+      
+      .logo-box {
+        width: 100%;
+        height: 100px;
+        overflow: hidden;
+      }
+      
+      .logo-box img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+      
+      
+      /* Estilos para a navegação */
+      nav {
+        text-align: center;
+        
+      }
+      
+      nav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+      }
+      
+      nav ul li {
+        display: inline-block;
+        margin: 10px;
+      }
+      
+      nav ul li a {
+        color: #fff;
+        text-decoration: none;
+        padding: 5px 10px;
+        border-radius: 3px;
+        transition: background-color 0.3s;
+      }
+      
+      nav ul li a:hover {
+        background-color: rgb(68, 41, 41);
+        color: rgb(255, 255, 255);
+      }
+      
+      /* Estilos para a seção principal */
+      section {
+        text-align: center;
+        padding: 50px 50px;
+        margin-bottom: 20px;
+      }
+      
+      section h1 {
+        font-size: 36px;
+        margin-bottom: 20px;
+        font-weight: bold;
+      }
+      
+      section p {
+        font-size: 18px;
+        color: #666;
+        margin-bottom: 20px;
+        line-height: 1.5;
+      }
+      
+      /* Estilos para o artigo */
+      article {
+        display: block;
+        flex: 1;
+        padding: 0 0;
+        background-color: #fffdfd;
+        text-align: center;
+     
+      }
+      
+      article h2 {
+        font-size: 24px;
+        margin-bottom: 20px;
+        margin: 20px;
+      }
+      
+      /* Estilos para o rodapé */
+      footer {
+        background-color: #333;
+        color: #fff;
+        padding: 10px;
+        text-align: center;
+      }
+      
+      /* Estilos para o endereço no rodapé */
+      address {
+        font-style: normal;
+      }
+      
+      /* Estilos para a tabela de menu*/
+      table {
+        width: 100%;
+        border-collapse: collapse;
+      }
+      
+      th, td {
+        padding: 10px;
+        text-align: left;
+      }
+      
+      th {
+        background-color: #333;
+        color: #fff;
+      }
+      
+      tr:nth-child(even) {
+        background-color: #f5f5f5;
+      }
+      
+      tr:hover {
+        background-color: #ddd;
+      }
+
+
+      .container {
+        display:flex;
+        background-size: cover;
+      }
+  
+      article img {
+        width: 100%;
+      }
+      
+      aside {
+        width: 200px;
+        background-color: rgb(110, 64, 64);
+        padding: 20px;
+        margin-left: auto;
+        margin-right: 0;
+      }
+  
+      footer {
+        background-color: #333;
+        color: #fff;
+        padding: 20px;
+        text-align: center;
+      }
+
+  .container img {
+    width: 100%;
+  }
+
+ .dir a{
+  color: black;
+ }
